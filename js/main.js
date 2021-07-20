@@ -11,3 +11,4 @@ console.log(indiziati);
 document.getElementById("babbei").innerHTML = (indiziati.sort());
 
 // 4. scrivi anche la posizione "umana" (partendo da 1) della lista in cui il nuovo utente si trova
+console.log('La posizione del tuo cognome è ', indiziati.indexOf(cognome) + 1);
