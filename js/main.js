@@ -8,7 +8,6 @@ indiziati.push(cognome);
 console.log(indiziati);
 
 // 3. stampa la lista ordinata alfabeticamente
-
-document.write(indiziati.sort());
+document.getElementById("babbei").innerHTML = (indiziati.sort());
 
 // 4. scrivi anche la posizione "umana" (partendo da 1) della lista in cui il nuovo utente si trova
